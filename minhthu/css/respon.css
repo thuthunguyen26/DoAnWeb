@@ -1,0 +1,189 @@
+@media (max-width:1024px) {
+    .content {
+        max-width: calc(100% - 24px);
+    }
+    .medium-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .medium-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .medium-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    
+    .header-top{
+        display: none;
+    }
+    .header-main .header-menu-nav {
+        display: none;
+    }
+    .header-hotline {
+        display: none;
+    }
+    .header-sale {
+        display: none;
+    }
+    .baner-icon {
+        top: 30%;
+    }
+    .baner > .baner-icon:nth-child(1) {
+        left: 10px;
+    }
+    .baner > .baner-icon:nth-child(2) {
+        right: 10px;
+    }
+    .tour-item {
+        padding: 10px 10px;
+    }
+    .tour-item span {
+        font-size: 14px;
+    }
+    header {
+        padding: 10px 0;
+    }
+    .wrap-icon {
+        top: 41.5%;
+    }
+    .wrap-head a {
+        font-size: 28px;
+        text-align: center;
+    }
+    .wrap-head button {
+        position: unset;
+        width: 120px;
+        padding: 10px 0;
+    }
+    .wrap-head {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    .addres-item a::before {
+        bottom: 10px;
+        left: 16px;
+        font-size: 26px;
+    }
+    .foot-row {
+        gap: 40px 0;
+    }
+    .foot-item ul li a {
+        font-size: 16px;
+    }
+    .foot-item ul {
+        align-items: center;
+        padding: 0 8px;
+    }
+    .foot-mail button[type="submit"] {
+        width: 15%;
+    }
+    .icon-menu-header {
+        display: block;
+        font-size: 36px;
+    }
+    .logo-head-respon {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .info-contact {
+        padding-top: 22px;
+    }
+    .form-contact {
+        padding-bottom: 0;
+    }
+    .title-contact h1 {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+    .abs-box {
+        padding: 20px 20px;
+    }
+    .abs-contai {
+        position: unset;
+        width: 100%;
+        margin-top: 12px;
+    }
+    .abs-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .abs-img-main {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-top: 65%;
+    }
+    .lab-abs {
+        gap: 8px;
+    }
+    .client-row {
+        gap: 8px;
+    }
+    
+
+ }
+ @media (max-width:640px) {
+    .tour-item a {
+        padding: 20px 0;
+    }
+    .tour-item {
+        padding: 8px 4px;
+    }
+    .mobi-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mobi-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .foot-item-primary {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .foot-item-ul-primary {
+        justify-content: flex-start;
+        height: 100%;
+    }
+    .address-row .addres-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .baner-icon {
+        padding: 8px 11px;
+        font-size: 12px;
+        top: 20%;
+    }
+    .slick {
+        gap: 8px;
+    }
+    .wrap-head a {
+        font-size: 16px;
+    }
+    .wrap-head {
+        margin: 10px 0;
+    }
+    .wrap-head button {
+        width: 100px;
+        padding: 6px 0;
+    }
+    .addres {
+        padding: 20px 0;
+    }
+    .addres h1 {
+        font-size: 20px;
+    }
+    .title-contact h1 {
+        font-size: 23px;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .navation ul {
+        gap: 4px 10px;
+    }
+ }

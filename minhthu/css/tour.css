@@ -1,0 +1,197 @@
+
+
+.abs-img {
+
+}
+.abs-row {
+
+}
+.abs-img-main {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 33%;
+}
+.abs-contai {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+.abs-box {
+    border: 2px solid var(--primate-color);
+    padding: 30px 20px;
+    width: 100%;
+    height: 85%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.abs-box h2 {
+    font-size: 25px;
+    color: var(--primate-color);
+    font-weight: 700;
+}
+.abs-box p {
+    font-size: 16px;
+    padding: 8px 0;
+}
+.lab-abs input[type="text"] {
+    height: 40px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-left: 10px;
+}
+.lab-abs input[type="text"]:focus {
+    border-color: var(--primate-color);
+}
+.form-heading {
+    color: var(--primate-color);
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.plan-box .check input[type="radio"] {
+    display: none;
+}
+.check label {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    padding-left:35px ;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.check label::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    left: 0;
+}
+.check label::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 5px solid var(--primate-color);
+    border-radius: 50%;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.check input[type="radio"]:checked ~ label::before {
+    display: block;
+}
+.info-client {
+    padding: 40px 0;
+}
+
+.client-row {
+    padding-top: 20px;
+}
+.client-item label {
+    font-weight: bold;
+}
+.input-cli {
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+.input-cli input[type="text"] {
+    outline: none;
+    border-radius: 6px;
+    padding: 0 10px;
+    height: 100%;
+    width: 100%;
+}
+.service {
+
+}
+.service input[type="checkbox"] {
+    display: none;
+}
+.service label {
+    padding-left: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.service input[type="checkbox"]:checked + label::after {
+    background-color: var(--primate-color);
+}
+.service label::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    left: 0;
+}
+.service label::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 9px;
+    left: 2px;
+    top: 5px;
+    border: 3px solid;
+    border-color: transparent transparent #fff #fff;
+    rotate: -45deg;
+    z-index: 1;
+}
+.service strong {
+    font-weight: 600;
+}
+.ser-row {
+
+}
+.ser-item {
+
+}
+.choise-star {
+    display: flex;
+    gap: 12px;
+}
+.input-text-plan input[type="text"] {
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 0 8px;
+}
+.input-text-plan {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 40px;
+}
+.ser-item-right label {
+    margin: 10px 0;
+}
+.sub button[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background-color: var(--primate-color);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: all linear 0.3s;
+}
+.sub button[type="submit"]:hover {
+    background-color: #818285;
+}
+
+
+
